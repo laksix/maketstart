@@ -806,7 +806,7 @@ height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-   
+    transform: none !important;
     }
     .sliders::after {
         display: none;
@@ -869,7 +869,7 @@ height: auto;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-       
+       transform: none !important;
         }
         .sliders::after {
             display: none;
