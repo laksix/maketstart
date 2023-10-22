@@ -19,6 +19,12 @@ window.onresize = function() {
     swiper.enable();
   }
 };
+const mobilescreen = document.body.clientWidth;
+if (mobilescreen < 767){
+  swiper.enable()
+} else {
+  swiper.disable()
+}
 
 
 
