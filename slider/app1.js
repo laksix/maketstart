@@ -14,6 +14,7 @@ var swiper = new Swiper(".mySwiper", {
 
 window.onresize = function() {
   if (window.innerWidth > 767) {
+    location.reload();
     swiper.disable();
   } else {
     swiper.enable();
